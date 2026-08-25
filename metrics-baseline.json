@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "fixtures": [
+    "control-flow",
+    "dataflow-O2",
+    "dataflow",
+    "edge-cases",
+    "loop-memory",
+    "signed-unsigned"
+  ],
+  "expected_branches": 15,
+  "discovered_branches": 9,
+  "branch_discovery_recall": 60,
+  "findings": 9,
+  "complete_findings": 0,
+  "complete_slice_percent": 0,
+  "definitive_findings": 0,
+  "definitive_percent": 0,
+  "true_positive_actionable_findings": 0,
+  "actionable_precision": null,
+  "false_actionable_findings": 0,
+  "false_negative_actionable_findings": 2,
+  "unknown_by_reason": {
+    "truncated:unmodellable memory access at 0x44c": 1,
+    "truncated:unmodellable memory access at 0x4a0": 1,
+    "truncated:unmodellable memory access at 0x4f4": 1,
+    "unsound": 9,
+    "truncated:unmodellable memory access at 0x3c8": 1,
+    "truncated:unmodellable memory access at 0x434": 1,
+    "truncated:unmodellable memory access at 0x494": 1,
+    "truncated:unmodellable memory access at 0x3e4": 1,
+    "truncated:unmodellable memory access at 0x404": 1,
+    "truncated:unmodellable memory access at 0x350": 1
+  },
+  "lifter_disagreements": 0,
+  "solver_disagreements": 0,
+  "elapsed_ms_p50": 270,
+  "elapsed_ms_p95": 46713,
+  "verified_patches": 1,
+  "patch_attempts": 1,
+... (11 lines truncated)
+[full output: "$HOME/Library/Application Support/rtk/tee/1787696551_jq_--arg_generated_at_2026-08-25T22_22_2.log"]

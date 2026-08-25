@@ -21,3 +21,19 @@ coverage contract; the generated matrix is the executable evidence for the
 portable variants. New fixtures should state their compiler, architecture,
 optimization, and feature coverage in the manifest change that introduces
 them.
+
+## Published baseline
+
+[`metrics-baseline.json`](metrics-baseline.json) is a checked-in aggregate from
+the r2SMT `real-binaries` gate. It records recall, actionable precision,
+Unknown reasons, p50/p95 runtime, verified patch rate, and rollback rate, along
+with the exact r2SMT, corpus, and radare2 revisions used to produce it. Refresh
+it with:
+
+```bash
+scripts/quality-gates.sh real-binaries
+cp target/r2smt-bench-metrics.json metrics-baseline.json
+```
+
+The baseline is evidence, not a release threshold: a null precision means the
+run produced no actionable findings to score.
