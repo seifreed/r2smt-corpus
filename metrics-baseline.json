@@ -19,7 +19,7 @@
   "true_positive_actionable_findings": 0,
   "actionable_precision": null,
   "false_actionable_findings": 0,
-  "false_negative_actionable_findings": 8,
+  "false_negative_actionable_findings": 10,
   "unknown_by_reason": {
     "truncated:unmodellable memory access at 0x44c": 1,
     "truncated:unmodellable memory access at 0x4a0": 1,
