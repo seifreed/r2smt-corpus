@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "architectures": ["x86", "x86_64", "aarch32", "thumb", "aarch64"],
+  "compilers": ["gcc", "clang", "msvc"],
+  "optimizations": ["O0", "O2", "O3", "Os"],
+  "features": [
+    "real_branches",
+    "opaque_predicates",
+    "mba",
+    "signed_unsigned",
+    "partial_flags",
+    "subregisters",
+    "diamonds_joins",
+    "loops",
+    "memory",
+    "calls",
+    "x87_sse_avx",
+    "neon_vfp",
+    "unsupported",
+    "pie",
+    "stripped",
+    "lto"
+  ],
+  "fixtures": [
+    {
+      "id": "control-flow",
+      "source": "control-flow/source",
+      "assembly": "control-flow/assembly",
+      "expected_branches": "control-flow/expected-branches.json",
+      "expected_findings": "control-flow/expected-findings.json",
+      "expected_patches": "control-flow/expected-patches.json"
+    },
+    {
+      "id": "dataflow",
+      "source": "dataflow/source",
+      "assembly": "dataflow/assembly",
+      "expected_branches": "dataflow/expected-branches.json",
+      "expected_findings": "dataflow/expected-findings.json",
+      "expected_patches": "dataflow/expected-patches.json"
+    },
+    {
+      "id": "portable-matrix",
+      "source": "portable-matrix/source",
+      "assembly": "portable-matrix/assembly",
+      "expected_branches": "portable-matrix/expected-branches.json",
+      "expected_findings": "portable-matrix/expected-findings.json",
+      "expected_patches": "portable-matrix/expected-patches.json"
+    },
+    {
+      "id": "edge-cases",
+      "source": "edge-cases/source",
+      "assembly": "edge-cases/assembly",
+      "expected_branches": "edge-cases/expected-branches.json",
+      "expected_findings": "edge-cases/expected-findings.json",
+      "expected_patches": "edge-cases/expected-patches.json"
+    }
+  ]
+}

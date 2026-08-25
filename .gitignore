@@ -1,0 +1,5 @@
+target/
+*.report.json
+*.analysis.json
+*.patched
+*.r2smt.manifest.json
