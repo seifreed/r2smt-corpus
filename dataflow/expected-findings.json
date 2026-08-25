@@ -1,4 +1,7 @@
 {
   "schema_version": 1,
-  "actionable": []
+  "actionable": [
+    {"kind": "constant_condition", "mnemonic": "je"},
+    {"kind": "constant_condition", "mnemonic": "je"}
+  ]
 }
