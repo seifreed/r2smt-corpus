@@ -53,6 +53,22 @@
       "expected_branches": "edge-cases/expected-branches.json",
       "expected_findings": "edge-cases/expected-findings.json",
       "expected_patches": "edge-cases/expected-patches.json"
+    },
+    {
+      "id": "loop-memory",
+      "source": "loop-memory/source",
+      "assembly": "loop-memory/assembly",
+      "expected_branches": "loop-memory/expected-branches.json",
+      "expected_findings": "loop-memory/expected-findings.json",
+      "expected_patches": "loop-memory/expected-patches.json"
+    },
+    {
+      "id": "signed-unsigned",
+      "source": "signed-unsigned/source",
+      "assembly": "signed-unsigned/assembly",
+      "expected_branches": "signed-unsigned/expected-branches.json",
+      "expected_findings": "signed-unsigned/expected-findings.json",
+      "expected_patches": "signed-unsigned/expected-patches.json"
     }
   ]
 }

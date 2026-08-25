@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "total": 2,
+  "labels": ["bounded loop condition", "volatile memory update"]
+}
