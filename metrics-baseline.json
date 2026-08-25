@@ -34,9 +34,9 @@
   },
   "lifter_disagreements": 0,
   "solver_disagreements": 0,
-  "elapsed_ms_p50": 270,
-  "elapsed_ms_p95": 46713,
+  "elapsed_ms_p50": 293,
+  "elapsed_ms_p95": 476,
   "verified_patches": 1,
   "patch_attempts": 1,
 ... (11 lines truncated)
-[full output: "$HOME/Library/Application Support/rtk/tee/1787696551_jq_--arg_generated_at_2026-08-25T22_22_2.log"]
+[full output: "$HOME/Library/Application Support/rtk/tee/1787697343_jq_--arg_generated_at_2026-08-25T22_35_2.log"]
